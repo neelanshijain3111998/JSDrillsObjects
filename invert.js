@@ -4,7 +4,8 @@
 const invert = (testObject) => {
   let newObject = {};
 
-  //The Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs.
+  //The Object.entries() method returns an array of a given object's own enumerable string-keyed
+  //property [key, value] pairs.
   for (const KeyValueArray of Object.entries(testObject)) {
     let key = KeyValueArray[0];
     let value = KeyValueArray[1];
