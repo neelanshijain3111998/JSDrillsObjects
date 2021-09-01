@@ -2,7 +2,7 @@
 // http://underscorejs.org/#mapObject
 //const Obj = { neelanshi: 90, chayan: 94, aman: 80 };
 
-const mapObject = function (obj, cb) {
+const mapObject = (obj, cb)=>{
   console.log(obj);
   for (let key in obj) {
     let NewValue = cb(obj[key]); //inside cb pass value it return updated value

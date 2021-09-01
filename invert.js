@@ -1,7 +1,7 @@
 //Returns a copy of the object where the keys have become the values and the values the keys.
 //const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" };
 
-const invert = function (testObject) {
+const invert = (testObject) => {
   let newObject = {};
 
   //The Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs.

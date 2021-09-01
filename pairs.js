@@ -1,6 +1,6 @@
 //const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" };
 
-const pairs = function (Obj) {
+const pairs =(Obj)=> {
   let listt = [];
 
   for (const key in Obj) {
