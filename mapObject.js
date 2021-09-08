@@ -5,6 +5,7 @@
 
 const mapObject = (obj, cb) => {
   console.log(obj);
+
   for (let key in obj) {
     let NewValue = cb(obj[key]); //inside cb pass value it return updated value
     obj[key] = NewValue; //Adding new value to again objet

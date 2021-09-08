@@ -2,7 +2,7 @@
 // Return `obj`.
 // http://underscorejs.org/#defaults
 
-//const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" };
+//const testObject = { name: "Neelanshi", age: 36, location: "Gotham" };
 //const defaultObj = { age: 46, nationality: "Indian" };
 
 const defaults = (obj, defaultProps) => {

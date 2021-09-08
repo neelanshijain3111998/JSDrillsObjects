@@ -1,5 +1,5 @@
 //Return all of the values of the object's own properties.
-const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" };
+//const testObject = { name: "Neelanshi", age: 22, location: "Kota" };
 
 const values = (Obj) => {
   Arrayy = [];

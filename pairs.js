@@ -1,6 +1,6 @@
-//const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" };
+//const testObject = { name: "Neelanshi", age: 36, location: "Kota" };
 
-const pairs =(Obj)=> {
+const pairs = (Obj) => {
   let listt = [];
 
   for (const key in Obj) {

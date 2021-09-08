@@ -1,5 +1,5 @@
 //Retrieve all the names of the object's own enumerable properties.
-//const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" };
+//const testObject = { name: "Neelanshi", age: 36, location: "Kota" };
 
 const keys = (Obj) => {
   Arrayy = [];

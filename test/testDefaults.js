@@ -2,8 +2,8 @@
 // Return `obj`.
 // http://underscorejs.org/#defaults
 
-const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" };
-const defaultObj = { age: 46, nationality: "Indian" };
+const testObject = { name: "Neelanshi", age: 22, location: "Kota" };
+const defaultObj = { age: 23, nationality: "Indian" };
 
 const id1 = require("../defaults.js");
 console.log(id1.Publicdefaults(testObject, defaultObj));
